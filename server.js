@@ -10,7 +10,7 @@ const productRoute = require("./routes/productRoute");
 const corsOptions = require("./config/corsOption");
 // middleware
 
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(bodyParser.json());
 app.use(cookieParser());
 
